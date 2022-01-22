@@ -2,11 +2,14 @@
 
 Example example = new();
 
+// Indexer with get and set
 Console.WriteLine(example.Strings[0]);
 example.Strings[1] = "Hello World";
 
+// Indexer with only get
 Console.WriteLine(example.Strings[2]);
 
+// Indexer with only set
 example.Doubles[3] = 712247.7357;
 
 class Example
