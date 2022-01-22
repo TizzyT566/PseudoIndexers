@@ -73,7 +73,7 @@ class Example
     public WriteOnlyIndexer<int, double> Doubles { get; } = new(
         (index, dbl) =>
         {
-
+            // Setter code here
         });
 }
 ```
