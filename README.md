@@ -1,6 +1,8 @@
 # PsuedoIndexers
 Enables indexer-like properties.
 
+Similar to how VB.Net properties can have index parameters.
+
 ## Usage
 
 ```csharp
