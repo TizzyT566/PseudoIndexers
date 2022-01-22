@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsuedoIndexers", "PsuedoIndexers\PsuedoIndexers.csproj", "{26CAE62B-66F6-48FD-8333-1AE562C7E968}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsuedoIndexer_Test", "PsuedoIndexer_Test\PsuedoIndexer_Test.csproj", "{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{26CAE62B-66F6-48FD-8333-1AE562C7E968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CAE62B-66F6-48FD-8333-1AE562C7E968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CAE62B-66F6-48FD-8333-1AE562C7E968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
