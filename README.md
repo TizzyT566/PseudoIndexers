@@ -3,6 +3,8 @@ Enables indexer-like properties.
 
 Similar to how VB.Net properties can have index parameters.
 
+This also enabled having multiple indexers in a class distinguished by name.
+
 ## Usage
 
 ```csharp
