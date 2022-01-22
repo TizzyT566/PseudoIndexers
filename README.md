@@ -8,6 +8,15 @@ Similar to how VB.Net properties can have index parameters.
 ```csharp
 using static System.PsuedoIndexers;
 
+Example example = new();
+
+Console.WriteLine(example.Strings[0]);
+example.Strings[1] = "Hello World";
+
+Console.WriteLine(example.Strings[2]);
+
+example.Doubles[3] = 712247.7357;
+
 class Example
 {
     // Indexer with get and set
