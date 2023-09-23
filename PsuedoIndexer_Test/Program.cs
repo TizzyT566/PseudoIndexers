@@ -1,4 +1,4 @@
-﻿using static System.PsuedoIndexers;
+﻿using static System.PseudoIndexers;
 
 Example example = new();
 

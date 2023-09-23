@@ -1,16 +1,14 @@
-# PsuedoIndexers
+# PseudoIndexers
 Enables indexer-like properties.
 
 Similar to how VB.Net properties can have index parameters.
 
-This also enabled having multiple indexers in a class distinguished by name.
+This also enables having multiple indexers in a class distinguished by name.
 
 ## Example
 
-Implementation:
-
 ```csharp
-using static System.PsuedoIndexers;
+using static System.PseudoIndexers;
 
 class Example
 {
@@ -47,7 +45,7 @@ class Example
     }
 }
 
-// Or the shorter way
+// Or the lambda way
 
 class Example
 {
