@@ -16,28 +16,17 @@ class Example
 {
     // Indexer with get and set
     public Indexer<int, string> Strings { get; }
-    private string StringsGetter(int index)
-    {
-        return index.ToString();
-    }
-    private void StringsSetter(int index, string? str)
-    {
-        Console.WriteLine($"{index}:{str}");
-    }
+    private string StringsGetter(int index) => index.ToString();
+
+    private void StringsSetter(int index, string? str) => Console.WriteLine($"{index}:{str}");
 
     // Indexer with only get
     public ReadOnlyIndexer<int, long> Longs { get; }
-    private long LongsGetter(int index)
-    {
-        return index;
-    }
+    private long LongsGetter(int index) => index;
 
     // Indexer with only set
     public WriteOnlyIndexer<int, double> Doubles { get; }
-    private void DoublesSetter(int index, double dbl)
-    {
-        Console.WriteLine($"{index}:{dbl}");
-    }
+    private void DoublesSetter(int index, double dbl) => Console.WriteLine($"{index}:{dbl}");
 
     public Example()
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsuedoIndexers", "PsuedoIndexers\PsuedoIndexers.csproj", "{26CAE62B-66F6-48FD-8333-1AE562C7E968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PseudoIndexers", "PseudoIndexers\PseudoIndexers.csproj", "{26CAE62B-66F6-48FD-8333-1AE562C7E968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsuedoIndexer_Test", "PsuedoIndexer_Test\PsuedoIndexer_Test.csproj", "{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PseudoIndexer_Test", "PseudoIndexer_Test\PseudoIndexer_Test.csproj", "{6B8499A0-B126-4EA6-9A15-7B0E6E6814CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
